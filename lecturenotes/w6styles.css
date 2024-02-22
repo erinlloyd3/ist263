@@ -1,0 +1,18 @@
+/* group selector, will style all h1's and p */
+h1, p {color: plum;
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* p {color:cadetblue}
+this is our basic element selector, 
+every p on the page gets styled
+*/
+
+p a {color:darkseagreen;}
+/*only styles link inside of paragraph tag*/
+
+/*styles the id */
+#secondparagraph {color:chartreuse}
+
+/* this styles a class */
+.purpletext {color: purple}
