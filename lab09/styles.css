@@ -1,0 +1,39 @@
+h1 {color: #A12CE7}
+
+
+body {background-color: #FFFFFF ;
+    color: #4444E1;}
+
+a:visited {color: #FF6666;}
+
+
+nav {background-color: #6DE2B1;
+    padding: 10px;
+    margin-bottom: 30px;}
+
+nav a{color: #5232d3;}
+
+nav a:hover {background-color: #D7E5F5;}
+
+.inline {text-align: center;}
+
+div img {width: 100px;}
+
+div p {color: #000000;}
+
+
+.flexbox2 {display: flex;}
+
+.skillcontainer {display: flex;
+    flex: 3;
+    justify-content: space-around;
+    margin-top: 90px;    
+}
+.other {
+    background-color: #bfc8ff;
+    padding: 10px;
+    flex: 1;
+    border-radius: 10px;
+}
+
+body p {padding: 10px;}
