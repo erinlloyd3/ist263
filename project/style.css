@@ -1,0 +1,426 @@
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    background-color: #7f1313;
+    text-align: center;
+    padding: 40px;
+}
+
+body {
+    background-color: #ffffff;
+}
+nav {
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav a:hover {
+    background-color: #7a7676;
+}
+
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.flexbox1 {
+    display: flex;
+}
+
+.homepageimage {display: flex;
+    flex: 1;
+    justify-content: space-around;
+    margin: 40px;    
+}
+
+.trending {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.trending h2, .trending p {
+    display: block; 
+}
+
+.flexboxcranberry {
+    display: flex;
+    width: 100%;
+  }
+
+.cranberryleft {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.cranberryleft img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+.cranberryright {
+    flex: 2;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: #f7e9e9;
+    border-radius: 20px;
+}
+
+.cranberryright h2, .cranberryright h3 {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .flexboxcranberry {
+      flex-direction: column; 
+    }
+}
+
+.flexboxtacosalad {
+    display: flex;
+    width: 100%;
+  }
+
+.tacoright {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.tacoright img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+.tacoleft {
+    flex: 2;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: #f7e9e9;
+    border-radius: 20px;
+}
+
+.tacoright h2, .tacoleft h3 {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .flexboxtacosalad {
+      flex-direction: column; 
+    }
+}
+
+h2 {
+    text-align: center;
+}
+
+.flexboxbeanwrap {
+    display: flex;
+    width: 100%;
+}
+
+.beanwrapleft {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.beanwrapleft img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+.beanwrapright {
+    flex: 2;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: #f7e9e9;
+    border-radius: 20px;
+}
+.beanwrapleft h2, .beanwrapright h3 {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .flexboxbeanwrap {
+      flex-direction: column; 
+    }
+}
+
+.flexboxmedi {
+    display: flex;
+    width: 100%;
+  }
+
+.mediright {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.mediright img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+.medileft {
+    flex: 2;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: #f7e9e9;
+    border-radius: 20px;
+}
+
+.mediright h2, .medileft h3 {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .flexboxmedi {
+      flex-direction: column; 
+    }
+}
+.flexboxpesto {
+    display: flex;
+    width: 100%;
+  }
+
+.pestoleft {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.pestoleft img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+.pestoright {
+    flex: 2;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: #f7e9e9;
+    border-radius: 20px;
+}
+
+.pestoright h2, .pestoleft h3 {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .flexboxpesto {
+      flex-direction: column; 
+    }
+}
+
+.flexboxcasserole {
+    display: flex;
+    width: 100%;
+  }
+
+.casseroleright {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.casseroleright img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+.casseroleleft {
+    flex: 2;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: #f7e9e9;
+    border-radius: 20px;
+}
+
+.casseroleright h2, .casseroleleft h3 {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .flexboxcasserole {
+      flex-direction: column; 
+    }
+}
+.flexboxsweet {
+    display: flex;
+    width: 100%;
+  }
+
+.sweetleft {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.sweetleft img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+.sweetright {
+    flex: 2;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: #f7e9e9;
+    border-radius: 20px;
+}
+
+.sweetright h2, .sweetleft h3 {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .flexboxsweet {
+      flex-direction: column; 
+    }
+}
+
+.flexboxchicksoup {
+    display: flex;
+    width: 100%;
+  }
+
+.chicksoupright {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.chicksoupright img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+.chicksoupleft {
+    flex: 2;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: #f7e9e9;
+    border-radius: 20px;
+}
+
+.chicksoupright h2, .chicksoupleft h3 {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .flexboxchicksoup {
+      flex-direction: column; 
+    }
+}
+
+.flexboxcreamy {
+    display: flex;
+    width: 100%;
+  }
+
+.creamyleft {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.creamyleft img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+.creamyright {
+    flex: 2;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: #f7e9e9;
+    border-radius: 20px;
+}
+
+.creamyright h2, .creamyleft h3 {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .flexboxcreamy {
+      flex-direction: column; 
+    }
+}
+
+
+.flexboxpoke {
+    display: flex;
+    width: 100%;
+  }
+
+.pokeright {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.pokeright img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+.pokeleft {
+    flex: 2;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: #f7e9e9;
+    border-radius: 20px;
+}
+
+.pokeright h2, .pokeleft h3 {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .flexboxpoke {
+      flex-direction: column; 
+    }
+}
