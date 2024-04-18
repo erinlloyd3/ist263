@@ -1,0 +1,85 @@
+h1 {color: #A12CE7}
+
+
+body {background-color: #FFFFFF ;
+    color: #4444E1;
+    font-size: 2em;
+}
+
+a:visited {color: #FF6666;}
+
+
+nav {background-color: #6DE2B1;
+    padding: 10px;
+    margin-bottom: 30px;}
+
+nav a{color: #5232d3;}
+
+nav a:hover {background-color: #D7E5F5;}
+
+.inline {text-align: center;}
+
+div img {width: 100px;}
+
+div p {color: #000000;}
+
+
+.flexbox2 {display: flex;}
+
+.skillcontainer {display: flex;
+    flex: 3;
+    justify-content: space-around;
+    margin-top: 90px;    
+}
+.other {
+    background-color: #bfc8ff;
+    padding: 10px;
+    flex: 1;
+    border-radius: 10px;
+}
+
+body p {padding: 10px;}
+
+.width {max-width: 100%;}
+
+.box2 {display: flex;
+    flex-wrap: wrap;
+}
+
+.form {display: flex;
+    flex-wrap: wrap}
+
+ @media only screen and (max-width: 800px) {
+    nav a {
+        width: 100%;
+        display: block;
+    }
+    nav span {
+        display: none;
+    }
+}
+
+div {padding: 25px;}
+.box1 {background-color:#ffe4c4;}
+.box2 {background-color: #deb887;}
+div{display: flex; border-radius: 1em; }
+
+.copy {float: left;}
+.right {float:right}
+
+th, td {border: 1px solid black;}
+
+
+
+/*.skip {
+    background-color: #ffa500;
+    padding: 8px;
+    border: 2px solid #000000;
+    text-decoration: none;
+    position: absolute; /* positions relative to top and bottom of viewport 
+    top: 10px;
+    left: -999px;  push the button off screen 
+}*/
+.skip:focus { /* when the button is tabbed to*/
+    left: 10px; 
+}
