@@ -5,6 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link rel="stylesheet" href="../style.css">
+    <script>
+        function changeLanguage() {
+          var language = document.getElementById("language-select").value;
+          var contentDiv = document.getElementById("content");
+    
+          switch(language) {
+            case "en":
+              contentDiv.innerHTML = "<p>This is the default content in English.</p>";
+              break;
+            case "es":
+              contentDiv.innerHTML = "<p>Este es el contenido predeterminado en español.</p>";
+              break;
+            case "zh":
+              contentDiv.innerHTML = "<p>这是中文的默认内容。</p>";
+              break;
+            case "fr":
+              contentDiv.innerHTML = "<p>Ceci est le contenu par défaut en français.</p>";
+              break;
+            default:
+              contentDiv.innerHTML = "<p>This is the default content in English.</p>";
+          }
+        }
+      </script>
 </head>
 <body>
     <h1>Cooking with College Students</h1>
@@ -13,10 +36,18 @@
         <a href="bowl.html">Bowls</a><span>|</span>
         <a href="salad.html">Salads & Sandwiches</a>
     </nav>   
-
+    <label for="language">Choose a language: </label> 
+    <select name="language" id="language"> 
+        <option value="English">English</option> 
+        <option value="Spanish">Spanish</option> 
+        <option value="Chinese">Chinese</option> 
+        <option value="French">French</option> 
+    </select>
+  
+<div id="content">
     <div class="flexbox1">
         <div class="homepageimage">
-            <img src="../media/chickennoodlesoup.jpg" alt="chickennoodlesoup">
+            <img src="../media/chickennoodlesoup.jpg" alt="chickennoodlesoup" id="chickennoodlesoup">
         </div>
         <div class="trending">
             <h2>Our Mission</h2>
@@ -24,10 +55,10 @@
         </div>
     </div>
     
-
+</div>
     <footer>
         <p class="left">&copy; 2024</p>
-        <p class="right">Lorem </p>
+        <p class="right">Cooking with College Students</p>
     </footer>
 </body>
 </html>
